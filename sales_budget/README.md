@@ -16,10 +16,24 @@ in Part 3, have to add venv folder to .gcloudignore, see https://cloud.google.co
 
 
 
+gcloud storage cp gs://pmykola-projectsgcp-artifacts/sales-budget/lr_model.pkl lr_model.pkl
+
+
+
+
+At the end of Part 2, I cannot make prediction work, keep getting error 'no sklearn module'
+
 
 ... Part 2 is probably working, but cannot say for sure, since I have not found a way to do webpreview in jupyter.
 I could verify it while doing evth within project-level CLI, but it is kind of inconvenient...
 ... Part 3 is partially working, but predict endpoint does not.
+
+
+
+
+
+
+
 
 
 
