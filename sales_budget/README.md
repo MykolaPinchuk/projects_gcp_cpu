@@ -22,6 +22,7 @@ gcloud storage cp gs://pmykola-projectsgcp-artifacts/sales-budget/lr_model.pkl l
 
 
 At the end of Part 2, I cannot make prediction work, keep getting error 'no sklearn module'
+IMPORTANT: this code refuses to work (error when calling /predict endpoint) with the recent sklearn. need to use sklearn 0.0. see p3 post for her package versions.
 
 
 ... Part 2 is probably working, but cannot say for sure, since I have not found a way to do webpreview in jupyter.
