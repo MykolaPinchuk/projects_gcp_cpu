@@ -12,9 +12,14 @@ source sales-app-venv/bin/activate
 
 
 
+in Part 3, have to add venv folder to .gcloudignore, see https://cloud.google.com/sdk/gcloud/reference/topic/gcloudignore
+
+
+
+
 ... Part 2 is probably working, but cannot say for sure, since I have not found a way to do webpreview in jupyter.
 I could verify it while doing evth within project-level CLI, but it is kind of inconvenient...
-
+... Part 3 is partially working, but predict endpoint does not.
 
 
 
